@@ -9,11 +9,10 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <html
-      lang="en"
-      className={`${poppins.variable} ${openSans.variable} bg-mobile h-screen w-screen bg-violet bg-top bg-no-repeat`}
-    >
-      <body>{children}</body>
+    <html lang="en" className={`${poppins.variable} ${openSans.variable}`}>
+      <body className="bg-mobile h-screen w-screen bg-violet bg-top bg-no-repeat">
+        {children}
+      </body>
     </html>
   );
 };
