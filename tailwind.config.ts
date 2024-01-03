@@ -20,6 +20,10 @@ const config: Config = {
       normal: "400",
       semibold: "600",
     },
+    backgroundImage: {
+      "mobile": "url('/assets/bg-mobile.svg')",
+      "desktop": "url('/assets/bg-desktop.svg')",
+    },
   },
   plugins: [],
 };
