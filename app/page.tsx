@@ -8,18 +8,18 @@ import Title from "@/components/Title";
 const Home = () => {
   return (
     <>
-      <header className="w-[303px]">
+      <header className="w-[303px] lg:w-[1280px]">
         <Logo />
       </header>
-      <main className="flex w-[303px] flex-col gap-20">
+      <main className="flex w-[303px] flex-col gap-20 lg:w-[1280px] lg:flex-row">
         <IllustrationMockups />
-        <div className="flex flex-col gap-6 text-center">
+        <div className="flex flex-col gap-6 text-center lg:mt-12 lg:text-left lg:gap-8">
           <Title />
           <Text />
           <Button />
         </div>
       </main>
-      <footer className="flex flex-row gap-6">
+      <footer className="flex flex-row gap-6 lg:w-[1280px] lg:justify-end">
         <Icons />
       </footer>
     </>
