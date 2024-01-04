@@ -1,6 +1,8 @@
 const Title = () => {
   return (
-    <h1 className="text-white font-semibold text-2xl font-poppins">Build The Community Your Fans Will Love</h1>
+    <h1 className="font-poppins text-2xl font-semibold text-white lg:text-4xl">
+      Build The Community Your Fans Will Love
+    </h1>
   );
 };
 
