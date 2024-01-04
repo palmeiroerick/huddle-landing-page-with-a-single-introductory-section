@@ -11,6 +11,7 @@ const config: Config = {
       /* Primary */
       violet: "#674baf",
       softMagenta: "#e882e8",
+      white: "#ffffff",
     },
     fontFamily: {
       poppins: "var(--poppins)",
@@ -21,8 +22,8 @@ const config: Config = {
       semibold: "600",
     },
     backgroundImage: {
-      "mobile": "url('/assets/bg-mobile.svg')",
-      "desktop": "url('/assets/bg-desktop.svg')",
+      mobile: "url('/assets/bg-mobile.svg')",
+      desktop: "url('/assets/bg-desktop.svg')",
     },
   },
   plugins: [],
