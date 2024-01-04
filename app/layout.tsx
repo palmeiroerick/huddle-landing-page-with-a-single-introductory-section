@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en" className={`${poppins.variable} ${openSans.variable}`}>
-      <body className="bg-mobile h-screen w-screen bg-violet bg-top bg-no-repeat">
+      <body className="flex h-screen w-screen flex-col items-center justify-between bg-violet bg-mobile bg-top bg-no-repeat p-9">
         {children}
       </body>
     </html>
