@@ -8,19 +8,19 @@ import Title from "@/components/Title";
 const Home = () => {
   return (
     <>
-      <header>
+      <header className="w-[303px]">
         <Logo />
       </header>
-      <main>
+      <main className="flex w-[303px] flex-col gap-20">
         <IllustrationMockups />
-        <Title />
-        <Text />
-        <Button />
+        <div className="flex flex-col gap-6 text-center">
+          <Title />
+          <Text />
+          <Button />
+        </div>
       </main>
-      <footer>
-        <Icons src="/assets/icons/facebook.svg" alt="facebook" />
-        <Icons src="/assets/icons/twitter.svg" alt="twitter" />
-        <Icons src="/assets/icons/instagram.svg" alt="instagram" />
+      <footer className="flex flex-row gap-6">
+        <Icons />
       </footer>
     </>
   );
