@@ -18,7 +18,7 @@ Users should be able to:
 
 ## Screenshot
 
-
+![Screen Shot 2024-01-04 at 18 42 36](https://github.com/palmeiroerick/huddle-landing-page-with-a-single-introductory-section/assets/148393698/0e2f066d-ed05-489a-b338-005c72126c5a)
 
 ## Links
 
