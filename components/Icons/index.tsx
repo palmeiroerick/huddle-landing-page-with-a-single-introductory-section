@@ -1,8 +1,12 @@
 const Icons = () => {
+  const iconClassName =
+    "border-white fill-white flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border-[1px] p-2 hover:border-softMagenta hover:fill-softMagenta";
+
   return (
     <>
       <svg
         xmlns="http://www.w3.org/2000/svg"
+        className={iconClassName}
         height="16"
         width="16"
         viewBox="0 0 320 512"
@@ -13,6 +17,7 @@ const Icons = () => {
 
       <svg
         xmlns="http://www.w3.org/2000/svg"
+        className={iconClassName}
         height="16"
         width="16"
         viewBox="0 0 512 512"
@@ -23,6 +28,7 @@ const Icons = () => {
 
       <svg
         xmlns="http://www.w3.org/2000/svg"
+        className={iconClassName}
         height="16"
         width="16"
         viewBox="0 0 448 512"
