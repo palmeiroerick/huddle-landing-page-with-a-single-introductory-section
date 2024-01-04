@@ -1,6 +1,6 @@
 const Icons = () => {
   const iconClassName =
-    "border-white fill-white flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border-[1px] p-2 hover:border-softMagenta hover:fill-softMagenta";
+    "border-white fill-white flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border-[1px] p-2 hover:border-softMagenta hover:fill-softMagenta lg:w-10 lg:h-10";
 
   return (
     <>
